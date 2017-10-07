@@ -16,7 +16,7 @@
   <div class="mv4">
     <h1>Featured Speakers</h1>
     <div class="cf">
-      {{ range first 10 (sort .Data.Pages "Params.date" "desc") }}
+      {{ range first 8 (shuffle (sort .Data.Pages "Params.date" "desc")) }}
         {{ .Render "li" }}
       {{ end }}
     </div>
