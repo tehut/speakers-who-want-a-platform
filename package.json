@@ -5,7 +5,7 @@
   "main": "js/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parse": "node scripts/parse-speakers.js",
+    "parse": "node scripts/parse-to-json.js",
     "start": "hugo server"
   },
   "repository": {
